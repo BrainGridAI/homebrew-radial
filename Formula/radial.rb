@@ -12,27 +12,27 @@
 class Radial < Formula
   desc "Script your Radial issue tracker from the terminal and your agents"
   homepage "https://radial.build/developers"
-  version "1.0.5"
+  version "1.0.6"
 
   on_macos do
     on_arm do
       url "https://github.com/BrainGridAI/radial/releases/download/cli-v#{version}/radial-darwin-arm64"
-      sha256 "6db634cff6b859a9ea579484c689536d70d5a49a760b3efb9852c242b80ac370"
+      sha256 "dd64c8ddf3248fafdb6ed1fec3bfe5ac464b4bf73e7087729cde1292abddc448"
     end
     on_intel do
       url "https://github.com/BrainGridAI/radial/releases/download/cli-v#{version}/radial-darwin-x64"
-      sha256 "f69335791349e5ea5ebdcd474a7860d10d0182be6eeda7e855d981162f21ee29"
+      sha256 "fedef0c5a18796d478a393828fa0a38a59d138a28727f248cd9f1e746f5b6db2"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/BrainGridAI/radial/releases/download/cli-v#{version}/radial-linux-arm64"
-      sha256 "55edde3fafc85719e182523284c898eaea8a77fb13e866cd23df03c0a972a4df"
+      sha256 "433fc6f06f1c4c305012609ffcbdb7f3c9f542a04bd78ea2795e3466ed74dc8a"
     end
     on_intel do
       url "https://github.com/BrainGridAI/radial/releases/download/cli-v#{version}/radial-linux-x64"
-      sha256 "c27b0d95867f903c2f83f5f750c728638f4d56e4f22a8deee605236b82d8a92b"
+      sha256 "b8dc99fb64d15db2ca5decda4fd89e8e37e14522e42d60bfd9d0a970f766cd60"
     end
   end
 
